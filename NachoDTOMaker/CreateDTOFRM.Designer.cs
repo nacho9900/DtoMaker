@@ -137,7 +137,7 @@
             this.Controls.Add(this.CancelBT);
             this.Controls.Add(this.ColumnsCLB);
             this.Name = "CreateDTOFRM";
-            this.Text = "CreateDTOFRM";
+            this.Text = "create dto";
             this.ResumeLayout(false);
             this.PerformLayout();
 

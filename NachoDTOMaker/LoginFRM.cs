@@ -30,6 +30,7 @@ namespace NachoDTOMaker
                 string.IsNullOrWhiteSpace(PasswordTB.Text))
             {
                 ErrorLB.Text = "Debe llenar todos los campos";
+                return;
             }
 
             string connString = string.Format(string.Format("Data Source={0};User ID={1};Password={2};",

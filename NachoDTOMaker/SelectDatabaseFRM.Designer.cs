@@ -115,7 +115,7 @@
             this.Controls.Add(this.DatabasesCBX);
             this.Controls.Add(this.label1);
             this.Name = "SelectDatabaseFRM";
-            this.Text = "Select Database";
+            this.Text = "select db and table";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SelectDatabaseFRM_FormClosing);
             this.Shown += new System.EventHandler(this.SelectDatabaseFRM_Shown);
             this.ResumeLayout(false);
