@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginFRM));
             this.ServerTB = new System.Windows.Forms.TextBox();
             this.UserTB = new System.Windows.Forms.TextBox();
             this.PasswordTB = new System.Windows.Forms.TextBox();
@@ -37,6 +38,9 @@
             this.ConnectBT = new System.Windows.Forms.Button();
             this.ErrorLB = new System.Windows.Forms.Label();
             this.RememberCB = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ServerTB
@@ -103,7 +107,7 @@
             // 
             this.ConnectBT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ConnectBT.Location = new System.Drawing.Point(12, 211);
+            this.ConnectBT.Location = new System.Drawing.Point(12, 338);
             this.ConnectBT.Name = "ConnectBT";
             this.ConnectBT.Size = new System.Drawing.Size(518, 32);
             this.ConnectBT.TabIndex = 6;
@@ -117,7 +121,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ErrorLB.AutoSize = true;
             this.ErrorLB.ForeColor = System.Drawing.Color.Coral;
-            this.ErrorLB.Location = new System.Drawing.Point(12, 181);
+            this.ErrorLB.Location = new System.Drawing.Point(13, 207);
             this.ErrorLB.Name = "ErrorLB";
             this.ErrorLB.Size = new System.Drawing.Size(0, 20);
             this.ErrorLB.TabIndex = 7;
@@ -126,18 +130,42 @@
             // 
             this.RememberCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.RememberCB.AutoSize = true;
-            this.RememberCB.Location = new System.Drawing.Point(335, 180);
+            this.RememberCB.Location = new System.Drawing.Point(12, 180);
             this.RememberCB.Name = "RememberCB";
             this.RememberCB.Size = new System.Drawing.Size(195, 24);
             this.RememberCB.TabIndex = 8;
             this.RememberCB.Text = "Remember credentials";
             this.RememberCB.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::NachoDTOMaker.Properties.Resources._361_3611823_image_nacho_png_object_shows_community_fandom_triangle;
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(347, 181);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(183, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 295);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(300, 37);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Nacho DTO Maker";
+            // 
             // LoginFRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(542, 260);
+            this.ClientSize = new System.Drawing.Size(542, 387);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.RememberCB);
             this.Controls.Add(this.ErrorLB);
             this.Controls.Add(this.ConnectBT);
@@ -150,6 +178,7 @@
             this.Name = "LoginFRM";
             this.Text = "login";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginFRM_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,6 +195,8 @@
         private System.Windows.Forms.Button ConnectBT;
         private System.Windows.Forms.Label ErrorLB;
         private System.Windows.Forms.CheckBox RememberCB;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

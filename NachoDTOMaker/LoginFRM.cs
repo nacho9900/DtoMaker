@@ -29,7 +29,7 @@ namespace NachoDTOMaker
                 string.IsNullOrWhiteSpace(UserTB.Text) ||
                 string.IsNullOrWhiteSpace(PasswordTB.Text))
             {
-                ErrorLB.Text = "Debe llenar todos los campos";
+                ErrorLB.Text = "Must complete all fields";
                 return;
             }
 
