@@ -36,8 +36,6 @@ namespace NachoDTOMaker
             string connString = string.Format(string.Format("Data Source={0};User ID={1};Password={2};",
                     ServerTB.Text, UserTB.Text, PasswordTB.Text));
 
-            bool ok = true;
-
             SqlConnection conn = new SqlConnection(connString);
             
             try
@@ -59,11 +57,9 @@ namespace NachoDTOMaker
             }
             catch (Exception ex)
             {
-                ErrorLB.Text = ex.Message;
-                ok = false;
+                MessageBox.Show(ex.Message, "Connection related error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 conn.Dispose();
             }
-
         }
 
         private void ClearCredentials()

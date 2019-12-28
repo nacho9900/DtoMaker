@@ -41,6 +41,8 @@
             // 
             // ServerTB
             // 
+            this.ServerTB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ServerTB.Location = new System.Drawing.Point(12, 36);
             this.ServerTB.Name = "ServerTB";
             this.ServerTB.Size = new System.Drawing.Size(518, 26);
@@ -48,6 +50,8 @@
             // 
             // UserTB
             // 
+            this.UserTB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.UserTB.Location = new System.Drawing.Point(12, 92);
             this.UserTB.Name = "UserTB";
             this.UserTB.Size = new System.Drawing.Size(518, 26);
@@ -55,6 +59,8 @@
             // 
             // PasswordTB
             // 
+            this.PasswordTB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordTB.Location = new System.Drawing.Point(12, 148);
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.Size = new System.Drawing.Size(518, 26);
@@ -62,6 +68,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
@@ -71,6 +79,8 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 69);
             this.label2.Name = "label2";
@@ -80,6 +90,8 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 125);
             this.label3.Name = "label3";
@@ -89,6 +101,8 @@
             // 
             // ConnectBT
             // 
+            this.ConnectBT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ConnectBT.Location = new System.Drawing.Point(12, 211);
             this.ConnectBT.Name = "ConnectBT";
             this.ConnectBT.Size = new System.Drawing.Size(518, 32);
@@ -99,6 +113,8 @@
             // 
             // ErrorLB
             // 
+            this.ErrorLB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ErrorLB.AutoSize = true;
             this.ErrorLB.ForeColor = System.Drawing.Color.Coral;
             this.ErrorLB.Location = new System.Drawing.Point(12, 181);
@@ -108,6 +124,7 @@
             // 
             // RememberCB
             // 
+            this.RememberCB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.RememberCB.AutoSize = true;
             this.RememberCB.Location = new System.Drawing.Point(335, 180);
             this.RememberCB.Name = "RememberCB";
