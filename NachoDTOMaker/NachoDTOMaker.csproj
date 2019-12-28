@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,11 +53,6 @@
     <Compile Include="CreateDTOFRM.Designer.cs">
       <DependentUpon>CreateDTOFRM.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Data.resx</DependentUpon>
-    </Compile>
     <Compile Include="LoginFRM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,10 +69,6 @@
     </Compile>
     <EmbeddedResource Include="CreateDTOFRM.resx">
       <DependentUpon>CreateDTOFRM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Data.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginFRM.resx">
       <DependentUpon>LoginFRM.cs</DependentUpon>

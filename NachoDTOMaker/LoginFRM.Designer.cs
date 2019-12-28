@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.ConnectBT = new System.Windows.Forms.Button();
             this.ErrorLB = new System.Windows.Forms.Label();
+            this.RememberCB = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // ServerTB
@@ -105,11 +106,22 @@
             this.ErrorLB.Size = new System.Drawing.Size(0, 20);
             this.ErrorLB.TabIndex = 7;
             // 
+            // RememberCB
+            // 
+            this.RememberCB.AutoSize = true;
+            this.RememberCB.Location = new System.Drawing.Point(335, 180);
+            this.RememberCB.Name = "RememberCB";
+            this.RememberCB.Size = new System.Drawing.Size(195, 24);
+            this.RememberCB.TabIndex = 8;
+            this.RememberCB.Text = "Remember credentials";
+            this.RememberCB.UseVisualStyleBackColor = true;
+            // 
             // LoginFRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(542, 260);
+            this.Controls.Add(this.RememberCB);
             this.Controls.Add(this.ErrorLB);
             this.Controls.Add(this.ConnectBT);
             this.Controls.Add(this.label3);
@@ -136,6 +148,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button ConnectBT;
         private System.Windows.Forms.Label ErrorLB;
+        private System.Windows.Forms.CheckBox RememberCB;
     }
 }
 
