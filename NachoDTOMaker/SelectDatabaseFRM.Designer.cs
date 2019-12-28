@@ -39,6 +39,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
@@ -48,6 +51,9 @@
             // 
             // DatabasesCBX
             // 
+            this.DatabasesCBX.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DatabasesCBX.FormattingEnabled = true;
             this.DatabasesCBX.Location = new System.Drawing.Point(13, 37);
             this.DatabasesCBX.Name = "DatabasesCBX";
@@ -57,6 +63,8 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 72);
             this.label2.Name = "label2";
@@ -66,6 +74,8 @@
             // 
             // TablesCBX
             // 
+            this.TablesCBX.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.TablesCBX.Enabled = false;
             this.TablesCBX.FormattingEnabled = true;
             this.TablesCBX.Location = new System.Drawing.Point(12, 95);
@@ -75,6 +85,8 @@
             // 
             // FilterTB
             // 
+            this.FilterTB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.FilterTB.Enabled = false;
             this.FilterTB.Location = new System.Drawing.Point(278, 97);
             this.FilterTB.Name = "FilterTB";
@@ -84,6 +96,8 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(278, 72);
             this.label3.Name = "label3";
@@ -93,6 +107,9 @@
             // 
             // NextBT
             // 
+            this.NextBT.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.NextBT.Enabled = false;
             this.NextBT.Location = new System.Drawing.Point(17, 141);
             this.NextBT.Name = "NextBT";

@@ -41,6 +41,9 @@
             // 
             // ColumnsCLB
             // 
+            this.ColumnsCLB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ColumnsCLB.CheckOnClick = true;
             this.ColumnsCLB.FormattingEnabled = true;
             this.ColumnsCLB.Location = new System.Drawing.Point(13, 114);
@@ -52,6 +55,7 @@
             // 
             // CancelBT
             // 
+            this.CancelBT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.CancelBT.Location = new System.Drawing.Point(12, 469);
             this.CancelBT.Name = "CancelBT";
             this.CancelBT.Size = new System.Drawing.Size(376, 30);
@@ -61,6 +65,7 @@
             // 
             // CreateBT
             // 
+            this.CreateBT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.CreateBT.Enabled = false;
             this.CreateBT.Location = new System.Drawing.Point(394, 469);
             this.CreateBT.Name = "CreateBT";
@@ -72,6 +77,7 @@
             // 
             // SelectAllBT
             // 
+            this.SelectAllBT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectAllBT.Location = new System.Drawing.Point(411, 78);
             this.SelectAllBT.Name = "SelectAllBT";
             this.SelectAllBT.Size = new System.Drawing.Size(376, 30);
@@ -99,6 +105,7 @@
             // 
             // NamespaceTB
             // 
+            this.NamespaceTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.NamespaceTB.Location = new System.Drawing.Point(411, 46);
             this.NamespaceTB.Name = "NamespaceTB";
             this.NamespaceTB.Size = new System.Drawing.Size(376, 26);
@@ -115,6 +122,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(411, 20);
             this.label2.Name = "label2";
